@@ -1,0 +1,69 @@
+{
+  "id": "el-rey-del-invierno-csb",
+  "title": "El Rey del Invierno (CSB)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Pedro Baringo",
+	  "url": "https://github.com/pedrobaringo",
+	  "discord": "pedrobari",
+	  "github": "pedrobaringo",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+		"./modules/reyinvierno.js"
+	],
+ "styles": [
+    "./assets/ReyInvierno.css"
+  ],
+  "packs": [
+    {
+      "name": "templates-actores",
+      "label": "Templates Actores",
+      "path": "packs/templates-actores",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "templates-objetos",
+      "label": "Templates Objetos",
+      "path": "packs/templates-objetos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/pedrobaringo/el-rey-del-invierno-csb",
+  "manifest": "https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/latest/download/module.json",
+  "download": "https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/download/1.0.0/el-rey-del-invierno-csb.zip"
+}

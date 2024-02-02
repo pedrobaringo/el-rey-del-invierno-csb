@@ -1,0 +1,604 @@
+@font-face {
+    font-family: "Fondamento";
+    src: url("../assets/Fondamento-Regular.ttf");
+}
+@font-face {
+    font-family: "PirataOne";
+    src: url("../assets/PirataOne-Regular.ttf");
+}
+.manifestaciones{
+	object-fit:contain;
+}
+.window-app .window-content {
+    background: url(../assets/Fondo_Estirpe.webp);
+    background-size: cover;
+	font-family:'Fondamento';
+	font-size:14px;
+}
+.titulos h3{
+	font-family:'PirataOne';
+	font-size:30px;
+	font-weight:100;
+	text-align:center;
+	border: 2px;
+	color: black;
+}
+.manifpanel {
+	border: 2px solid #4e5651;
+	border-radius:7px;
+	margin:0px;
+	padding: 0px;
+	grid-template-columns:66% 32%;
+}
+.espclass{
+	font-family:'Fondamento';
+	font-size:14px;
+	color: black;
+}
+.tablehab {
+    display: block;
+}
+.fisicotable{
+    padding-left: 10px;
+}
+.descripcion {
+	font-size:14px;
+	padding-top:10px;
+	color: black;
+	padding-top:0px;
+}
+.charname{
+	font-family:'PirataOne';
+	font-size:40px;
+}
+.checkincap{
+	margin-top:48px;
+	margin-bottom:48px;
+}
+.checkincap input[type="checkbox"] {
+  transform: scale(2.5);
+}
+.checkincap input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.hitostext {
+	font-family:'Fondamento';
+	font-size:14px;
+	color: black;
+	margin-right:5px;
+}
+.hitostext label{
+	font-family:'PirataOne';
+	font-size:16px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px;
+	padding: 2px 6px 2px 6px;
+}
+.experiencenumbers {
+	font-family:'PirataOne';
+	font-size:19px;
+	font-weight:200;
+	text-align:center;
+	color:black;
+}
+.notastextwindow {
+	font-family:'Fondamento';
+	font-size:15px;
+	text-align:justify;
+	color: black;
+}
+.tabbedpanel {
+	font-family:'PirataOne';
+	font-size:19px;
+	font-weight:200;
+	text-align:center;
+	color:#505851;
+}
+.tabbedpanel .item.active{
+	text-decoration: underline;
+	color:black;
+}
+.tablehabilidadestotal {
+	vertical-align: top;
+}
+.panelarmasvida{
+	grid-template-columns:66% 34%;
+	width:100%;
+	gap:0px;
+}
+.tablehabilidades table{
+	background-color: #f0f8ff00;
+	border: 0px;
+}
+.tablehabilidades table tr:first-child td:first-child{
+	background-color: #000000;
+	border-radius:7px 0px 0px 7px;
+}
+.tablehabilidades table tr:first-child td{
+	background-color: #000000;
+	border-radius:0px 7px 7px 0px;
+}
+.tituloshab {
+	font-family:'PirataOne';
+	font-size:25px;
+	margin-bottom:0px;
+	color: #e9f4ee;
+}
+.tituloshab .custom-system-rollable {
+	color: #e9f4ee;
+}
+.habnum input{
+	font-family:'PirataOne';
+	font-size:20px;
+	margin-bottom:0px;
+	background-color: #e9f4ee;
+}
+.titulosvida{
+	font-family:'PirataOne';
+	font-size:25px;
+	color: #e9f4ee;
+	width:140px;
+}
+.titulosvida h3{
+	margin:5px;
+}
+.tabladados table{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tabladados table tr td{
+	padding-top: 8px;
+	padding-bottom:8px;
+}
+.vidatable table{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablevitinc{
+	background-color: #f0f8ff00;
+	border-bottom:2px solid #505851;
+	border-left:2px solid #505851;
+	border-right:2px solid #505851;
+	border-radius:10px;
+}
+.tablevitinc tr:first-child td{
+	background-color: #505851;
+	border-radius:9px 9px 0px 0px;
+}
+.tabladados table tr:first-child td{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablainc table tr:first-child td{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablehabilidadesprim table{
+	background-color: #f0f8ff00;
+	border: 0px;
+	padding-right:5px;
+}
+.tablehabilidadesprim table tr:first-child td:first-child{
+	background-color: #000000;
+	border-radius:7px 0px 0px 7px;
+}
+.tablehabilidadesprim table tr:first-child td{
+	background-color: #000000;
+	border-radius:0px 7px 7px 0px;
+}
+.tablehabilidadesprim {
+	padding-right:3px;
+}
+.tablepasos table{
+	background-color: #f0f8ff00;
+	border: 0px;
+}
+.pasoscheck input{
+	margin:0px;
+}
+.panelhitospasos{
+	grid-template-columns:30% 70%;
+}
+.tablaarmas{
+	font-family:'Fondamento';
+	font-size:17px;
+	color: black;
+}
+.tablaarmas table{
+	border: 0px;
+	background-color:  #f0f8ff00;
+	margin: 0px;
+}
+.tablaarmas{
+	border-bottom:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+	background-color:  #f0f8ff00;
+	border-radius: 5px;
+}
+.tablaarmas table tr:first-child{
+	font-family:'PirataOne';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 0px 5px 0px 0px;
+}
+.tablaarmas table tr:first-child td:last-child{
+	font-family:'Fondamento';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 0px 5px 0px 0px;
+}
+.tablaarmas table tr:first-child td:first-child{
+	font-family:'PirataOne';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px 0px 0px 0px;
+}
+.tablaarmas table td:first-child a{
+	color: darkred;
+	margin-left:5px;
+}
+.tablaarmas table td:first-child a img{
+	display:none;
+}
+.labelsexp{
+	font-family:'PirataOne';
+	font-size:14px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.exptext{
+	font-family:'Fondamento';
+	font-size:14px;
+	color: black;
+	padding-right:0px;
+}
+.paneldescexp{
+	grid-template-columns:60% 40%;
+	width: 100%;
+}
+.desctitulo h3{
+	font-family:'PirataOne';
+	font-size:20px;
+	font-weight:200;
+	text-align:center;
+	color:black;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+.paneliniciativa{
+	font-family:'PirataOne';
+	font-size:18px;
+	font-weight:200;
+	text-align:center;
+	color:black;
+	color:black;
+	grid-template-columns:40% 28% 15% 10%;
+}
+.dropdownarmas{
+	font-family:'Fondamento';
+	font-size:14px;
+}
+.panelexp{
+	grid-template-columns:60% 30%;
+}
+.masivprot{
+	grid-template-columns:10% 5% 13% 70%;
+}
+.multvitpanel{
+	grid-template-columns:65% 25%;
+}
+.imagedicepnj {
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left: -20px;
+}
+.panelarmasvida div:empty{
+	display:none;
+}
+.checkincapx2{
+	margin-top:16px;
+	margin-bottom:15px;
+}
+.checkincapx2 input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.checkincapx2 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx05{
+	margin-top:58px;
+	margin-bottom:58px;
+}
+.checkincapx05 input[type="checkbox"] {
+  transform: scale(2.5);
+}
+.checkincapx05 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx15{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.checkincapx15 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx15 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx3{
+	margin-top:27px;
+	margin-bottom:26px;
+}
+.checkincapx3 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx3 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx4{
+	margin-top:16px;
+	margin-bottom:15px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.checkincapx4 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx4 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx5{
+	margin-top:9.5px;
+	margin-bottom:9px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.checkincapx5 input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.checkincapx5 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.tablaarmas a.content-link{
+	background:transparent;
+	border: 0px; 
+}
+.sixdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/seisdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.sixdice input[type="checkbox"]:checked {
+    background: url(../assets/seisdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.fivedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/cincodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.fivedice input[type="checkbox"]:checked {
+    background: url(../assets/cincodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.fourdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/Cuatrodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.fourdice input[type="checkbox"]:checked {
+    background: url(../assets/CuatrodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.threedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/tresdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.threedice input[type="checkbox"]:checked {
+    background: url(../assets/tresdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.twodice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/dosdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.twodice input[type="checkbox"]:checked {
+    background: url(../assets/dosdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.onedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/unodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.onedice input[type="checkbox"]:checked {
+    background: url(../assets/unodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.trescuatrodice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/trescuatro.webp);
+	background-size:85px;
+	flex: 0 0 85px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+	background-repeat: no-repeat;
+}
+.trescuatrodice input[type="checkbox"]:checked {
+    background: url(../assets/trescuatroX.webp);
+	background-size:85px;
+	-webkit-filter: none !important;
+	background-repeat: no-repeat;
+}
+.unodosdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/unodos.webp);
+	background-size:85px;
+	flex: 0 0 85px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+	background-repeat: no-repeat;
+}
+.unodosdice input[type="checkbox"]:checked {
+    background: url(../assets/unodosX.webp);
+	background-size:85px;
+	-webkit-filter: none !important;
+	background-repeat: no-repeat;
+}
+.manifestaciones {
+	text-decoration: none;
+	grid-column: 1 / span 6;
+	background-image: url(../assets/Magnitudes%20Manifestación.JPG);
+	background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+	height: 100%;
+	width: 100%;
+}
+.dice-roll .dice-formula {
+	display:none;
+}
+.dice-tooltip .part-header {
+	display:none;
+}
+.dice-total {
+	display:none;
+}
+.dice-tooltip .dice-rolls {
+	display: flex;
+ 	justify-content: center;
+}
+.dice-roll .dice-tooltip {
+	display: flex;
+ 	justify-content: center;
+}
+.chat-message .message-content hr {
+	display:none;
+}
+.chat-message .message-content h1{
+font-family:'PirataOne';
+	font-size:30px;
+	font-weight:200;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'PirataOne';
+	font-size:25px;
+	font-weight:200;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+font-family:'PirataOne';
+	font-size:15px;
+	font-weight:200;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content {
+font-family:'Fondamento';
+	margin-top:10px;
+	font-size:15px;
+	font-weight:200;
+	text-align:left;
+	border:0px;
+}
+.chat-message .message-header {
+	border-bottom:2px solid #671308;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'PirataOne';
+	text-align:center;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #671308;
+	white-space: normal;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Fondamento';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.chat-message {
+	background: url(../assets/Fondo_Estirpe.webp);
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	background-clip: border-box;
+}
+.dice-tooltip .dice-rolls .roll.max {
+	filter: none;
+}
+.dice-tooltip .dice-rolls .roll.min {
+	filter: none;
+}
+.dice-tooltip img{
+	border:0px;
+	max-height: 60px;
+}
+.dice-tooltip .dice-rolls .roll.d6 riwhite{
+	background-image: none;
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
