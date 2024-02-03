@@ -602,3 +602,30 @@ font-family:'Fondamento';
 .custom-system-user-input-button[data-action="add-10"] {
 	display:none;
 }
+.desctitulo {
+	font-weight:700;
+	font-family:PirataOne;
+	font-size: 20px;
+}
+.tablehabilidades2 table{
+	background-color: #f0f8ff00;
+	border: 0px;
+	margin:0px;
+	padding:0px;
+}
+.panelhab2 {
+	margin:0px;
+	padding:0px;
+}
+.habnum input{
+	text-align:center;
+}
+.descripcionmasivo input{
+	text-align:center;
+}
+.labeldescobj label{
+	font-weight:700;
+	font-family:PirataOne;
+	font-size: 20px;
+	margin-bottom:10px;
+}
