@@ -1,5 +1,5 @@
 ## Instalación
-Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/releases/latest/download/module.json
+Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/latest/download/module.json
 
 ![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/b2025a6c-8129-479f-9e15-796e429dd632)
 
