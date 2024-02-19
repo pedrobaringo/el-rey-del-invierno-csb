@@ -14,6 +14,9 @@
     font-family: "Cabazon";
     src: url("../assets/Cabazon.otf");
 }
+#logo {
+    content: url(../assets/TituloEsquina.webp);
+}
 .window-app .window-content {
     background: url(../assets/FondoRI.webp);
     background-size: cover;
@@ -285,12 +288,12 @@ font-family:'Garamond';
     cursor: pointer;
 }
 .paneldeschito {
-	border-image-source: url(../assets/cajadesc.webp);
-	border-image-slice: 10%;
-	border-image-width: 10%;
-	border-image-outset: 2px;
-	padding-bottom:5px;
-	margin-left:10px;
+    border-image-source: url(../assets/cajadesc2.webp);
+    border-image-slice: 15%;
+    border-image-width: 50px 150px;
+    border-image-outset: 2px;
+    padding-bottom: 5px;
+    margin-left: 10px;
 }
 .deschito {
 	font-family:'GaramondBdIt';
@@ -326,14 +329,14 @@ font-family:'Garamond';
 	margin-left:10px;
 }
 .inputdescrojo input[type="text"] {
-	font-family:"Garamond";
-	font-size:17px;
-	background:transparent;
-	border-image-source: url(../assets/cajadesc.webp);
-	border-image-slice: 10%;
-	border-image-width: 10%;
-	height:100%;
-	width:100%;
+    font-family: "Garamond";
+    font-size: 17px;
+    background: transparent;
+    border-image-source: url(../assets/cajadesc2.webp);
+    border-image-slice: 15%;
+    border-image-width: 50px 150px;
+    height: 100%;
+    width: 100%;
 }
 .panel0margin {
 	margin:0px;
@@ -811,6 +814,7 @@ font-family:'Garamond';
 	border-left:1.5px solid black;
 	height:90%;
 	padding-left:2px;
+  vertical-align: middle;
 }
 .tablaarmas2 td:last-child div {
 	border:0px;
@@ -1749,7 +1753,7 @@ font-family:'Garamond';
 	gap:0px;
 	border-image-source: url(../assets/cajaarmadura.webp);
 	border-image-slice: 5%;
-	border-image-width: 3%;
+	border-image-width: 5px 20px;
 	border-image-outset: 5px;
 	margin-bottom:20px;
 }
@@ -1927,7 +1931,7 @@ font-family:'Garamond';
 	background-color: #58514e;
 	border-radius: 7px 0px 0px 7px;
 	margin-left:0px;
-	padding-left:10px;
+	padding-left:3px;
 	padding-top:7px;
 	padding-bottom:5px;
 }
@@ -2157,13 +2161,139 @@ font-family:'Garamond';
 	border-radius:0px;
 }
 .inputdescrojo select {
-	font-family:"Garamond";
-	font-size:17px;
-	background:transparent;
-	border-image-source: url(../assets/cajadesc.webp);
-	border-image-slice: 10%;
-	border-image-width: 10%;
-	height:100%;
-	width:100%;
-	text-align:center;
+    font-family: "Garamond";
+    font-size: 17px;
+    background: transparent;
+    border-image-source: url(../assets/cajadesc2.webp);
+    border-image-slice: 15%;
+    border-image-width: 50px 150px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.panelmasvit {
+	display:grid;
+	grid-template-columns: 35% 60%;
+	margin:0px;
+	gap:5px;
+}
+.panelmultip {
+	display:grid;
+	grid-template-columns: 70% 30%;
+	margin:0px;
+	gap:0px;
+}
+.panelmas {
+	display:grid;
+	margin:0px;
+	gap:0px;
+}
+.panelvitasombra1 {
+	border-color: #58514e;
+	border-width:3px;
+	border-style: solid;
+	border-radius:7px;
+	position:absolute;
+	margin:0px;
+	height: 42px;
+	width:104%;
+	top:15px;
+	left:-2%;
+}
+.panelvitasombra2 {
+	border-color: #58514e;
+	border-width:3px;
+	border-style: solid;
+	border-radius:7px;
+	position:absolute;
+	margin:0px;
+	height: 49px;
+	width:104%;
+	top:54px;
+	left:-2%;
+}
+.panelvitasombra3 {
+	border-color: #58514e;
+	border-width:3px;
+	border-style: solid;
+	border-radius:7px;
+	position:absolute;
+	margin:0px;
+	height: 48px;
+	width:104%;
+	top:101px;
+	left:-2%;
+}
+.panelvitasombra4 {
+	border-color: #58514e;
+	border-width:3px;
+	border-style: solid;
+	border-radius:7px;
+	position:absolute;
+	margin:0px;
+	height: 48px;
+	width:104%;
+	top:147px;
+	left:-2%;
+}
+.panelvitasombra5 {
+	border-color: #58514e;
+	border-width:3px;
+	border-style: solid;
+	border-radius:7px;
+	position:absolute;
+	margin:0px;
+	height: 48px;
+	width:104%;
+	top:193px;
+	left:-2%;
+}
+.vitacheck12, .vitacheck34 {
+	margin:0px;
+}
+.vitacheck12 input[type="checkbox"] {
+	-webkit-appearance: initial;
+    appearance: initial;
+	transform: scale(1.2);
+	border-color: #58514e;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:3px;
+	background-image: url(../assets/check12vita.webp);
+	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+    cursor: pointer;
+}
+.vitacheck12 input[type="checkbox"]:checked {
+	background-image: url(../assets/check12vitachecked.webp);
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+    cursor: pointer;
+}
+.vitacheck34 input[type="checkbox"] {
+	-webkit-appearance: initial;
+    appearance: initial;
+	transform: scale(1.2);
+	border-color: #58514e;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:3px;
+	background-image: url(../assets/check34vita.webp);
+	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+    cursor: pointer;
+}
+.vitacheck34 input[type="checkbox"]:checked {
+	background-image: url(../assets/check34vitachecked.webp);
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+    cursor: pointer;
 }
