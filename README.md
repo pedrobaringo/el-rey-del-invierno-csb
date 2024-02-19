@@ -9,8 +9,8 @@ Es importante que importes primero los Objetos y después los Actores, pero sobr
 ![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/6fa9c0c2-1936-4db6-99b2-7e80f54e7172)
 
 ## Configurar fórmula de Iniciativa
-Para configurar la fórmula de Iniciativa debemos ir a Configurar Ajustes --> Custom System Builder y allí cambiar la Initiative formula a **"iniciativa"** (sin las comillas y en minuscula) y en Roll Icons ponemos **"dice"** (tambien sin comillas).
+Para configurar la fórmula de Iniciativa debemos ir a Configurar Ajustes --> Custom System Builder y allí cambiar la Initiative formula a **"iniciativa"** (sin las comillas y en minuscula) y en Roll Icons lo dejamos en blanco.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/ee648fbb-139a-4de2-b68c-5d82108691e8)
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/6197c93a-7bec-4910-965d-06339235a8f5)
 
 Para que tenga efecto debemos refrescar la página.
