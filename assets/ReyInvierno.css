@@ -86,6 +86,7 @@
 .dice-tooltip .dice-rolls {
 	display: flex;
  	justify-content: center;
+  flex-wrap:wrap;
 }
 .dice-roll .dice-tooltip {
 	display: flex;
@@ -109,7 +110,7 @@ font-family:'Cabazon';
 	border:0px;
 }
 .chat-message .message-content p{
-font-family:'Cabazon';
+font-family:'Garamond';
 	font-size:15px;
 	font-weight:200;
 	text-align:center;
@@ -160,16 +161,50 @@ font-family:'Garamond';
 }
 .dice-tooltip img{
 	border:0px;
-	max-height: 60px;
+	max-height: 45px;
 }
 .dice-tooltip .dice-rolls .roll.d6 riwhite{
 	background-image: none;
+}
+.custom-system-user-inputs{
+	background:transparent;
+	border:0px;
+}
+.custom-system-user-inputs tr{
+	display:grid;
+	grid-template-columns: auto auto;
+	gap:0px;
+}
+.custom-system-user-inputs td:first-child label{
+	vertical-align:middle;
+	height:100%;
+	display:flex;
+	align-items: center;
+}
+.custom-system-user-input-block {
+	display:grid;
+	grid-template-columns: auto auto auto;
 }
 .custom-system-user-input-button[data-action="sub-10"] {
 	display:none;
 }
 .custom-system-user-input-button[data-action="add-10"] {
 	display:none;
+}
+.custom-system-user-inputs tr:nth-child(even) {
+	background-color:  transparent;
+}
+.custom-system-user-inputs td button{
+	font-family: 'Garamond';
+	font-size: 20px;
+}
+.custom-system-user-inputs td input[type="number"] {
+	text-align:center;
+	transform: scale(1);
+	font-family: 'Garamond';
+	font-size: 20px;
+	height:100%;
+	max-width:40px;
 }
 .panelhab2 {
 	margin:0px;
@@ -1047,37 +1082,6 @@ font-family:'Garamond';
 }
 .custom-system-user-inputs thead{
 	display: none;
-}
-.custom-system-user-inputs{
-	background:transparent;
-	border:0px;
-}
-.custom-system-user-input-block{
-	justify-content:center;
-	width:20%;
-	margin-left:30%;
-}
-.custom-system-user-input-button[data-action="sub-10"] {
-	display:none;
-}
-.custom-system-user-input-button[data-action="add-10"] {
-	display:none;
-}
-.custom-system-user-inputs tr:nth-child(even) {
-	background-color:  transparent;
-}
-.custom-system-user-inputs td {
-	width: 1px;
-	white-space:nowrap;
-}
-.custom-system-user-inputs td button{
-	width:auto;
-	font-family: 'Garamond';
-	font-size: 20px;
-}
-.custom-system-user-inputs td input[type="number"] {
-	text-align:center;
-	padding:5px;
 }
 .panelmagiagrande {
 	margin:0px;
@@ -2296,4 +2300,13 @@ font-family:'Garamond';
 	background-position: center;
 	background-size: contain;
     cursor: pointer;
+}
+.accioncss select {
+	border:0px;
+	background:transparent;
+	margin:0px;
+	text-align:left;
+	border-bottom:1px solid black;
+	border-radius: 0px;
+	font-size:15px;
 }
