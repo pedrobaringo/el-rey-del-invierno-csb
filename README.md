@@ -18,6 +18,10 @@ Para hacer una tirada solo tienes que pulsar en el icono de los dados de la capa
 
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/44cc683b-44ad-4038-8e1d-9a66379e2138)
 
+Si con la tirada hay dados que no hayan tenido éxito, te aparecerá un botón en el mensaje del Chat preguntando si tienes una Especialidad. Si lo pulsas se tirarán los dados que no hayan tenido éxito y se sumaran los éxitos que se obtengan.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/cb6f1329-c77a-46bb-9475-6c6903a67e63) ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/b11231b8-7ffc-4c93-8ad1-92b83aefe2e7)
+
 Si quereis hacer tiradas con bonificadores o penalizadores debeis pulsar la tecla Mayus de vuestro teclado mientras haceis click en la capacidad. Entonces se os abrirá un diálogo en el que podeis añadir o sustraer los dados de bonificación o penalización.
 
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/f8d8227a-0cd5-4cb2-bb46-caef9dd6215e)
