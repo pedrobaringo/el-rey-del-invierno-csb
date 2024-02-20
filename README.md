@@ -13,4 +13,11 @@ Al entrar por primera vez con el módulo activo os aparecerá un mensaje de Bien
 
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/d55a1a2b-4b31-4243-b677-c4f3c718eb39)
 
-Para que tenga efecto debemos refrescar la página.
+## Tiradas
+Para hacer una tirada solo tienes que pulsar en el icono de los dados de la capacidad correspondiente o su nombre (en el caso de objetivos en Magia solo en el Icono).
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/44cc683b-44ad-4038-8e1d-9a66379e2138)
+
+Si quereis hacer tiradas con bonificadores o penalizadores debeis pulsar la tecla Mayus de vuestro teclado mientras haceis click en la capacidad. Entonces se os abrirá un diálogo en el que podeis añadir o sustraer los dados de bonificación o penalización.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/f8d8227a-0cd5-4cb2-bb46-caef9dd6215e)
