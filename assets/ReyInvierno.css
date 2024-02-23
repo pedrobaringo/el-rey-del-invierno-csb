@@ -2310,3 +2310,13 @@ font-family:'Garamond';
 	border-radius: 0px;
 	font-size:15px;
 }
+.panelmultip2 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 10px;
+    margin-left:10px;
+    gap: 0px;
+}
+.panelchecksvitaincap div:empty{
+	display:none;
+}
