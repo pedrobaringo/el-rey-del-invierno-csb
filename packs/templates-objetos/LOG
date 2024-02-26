@@ -1,21 +1,3 @@
-2024/02/24-10:41:18.167517 7ff649ffb700 Recovering log #91
-2024/02/24-10:41:18.206418 7ff649ffb700 Delete type=3 #90
-2024/02/24-10:41:18.206462 7ff649ffb700 Delete type=0 #91
-2024/02/24-11:39:19.268964 7ff6470e1700 Level-0 table #95: started
-2024/02/24-11:39:19.269229 7ff6470e1700 Level-0 table #95: 0 bytes OK
-2024/02/24-11:39:19.272439 7ff6470e1700 Delete type=0 #93
-2024/02/24-11:39:19.282318 7ff6470e1700 Manual compaction at level-0 from '!folders!xGJb9PGbxQpNakEC' @ 72057594037927935 : 1 .. '!items!axBVkdYL9oN2CB2O' @ 0 : 0; will stop at '!items!axBVkdYL9oN2CB2O' @ 22 : 0
-2024/02/24-11:39:19.282329 7ff6470e1700 Compacting 1@0 + 0@1 files
-2024/02/24-11:39:19.284860 7ff6470e1700 Generated table #96@0: 2 keys, 4052 bytes
-2024/02/24-11:39:19.284872 7ff6470e1700 Compacted 1@0 + 0@1 files => 4052 bytes
-2024/02/24-11:39:19.286760 7ff6470e1700 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/02/24-11:39:19.286812 7ff6470e1700 Delete type=2 #86
-2024/02/24-11:39:19.314498 7ff6470e1700 Manual compaction at level-0 from '!items!axBVkdYL9oN2CB2O' @ 22 : 0 .. '!items!axBVkdYL9oN2CB2O' @ 0 : 0; will stop at (end)
-2024/02/24-11:39:19.314555 7ff6470e1700 Manual compaction at level-1 from '!folders!xGJb9PGbxQpNakEC' @ 72057594037927935 : 1 .. '!items!axBVkdYL9oN2CB2O' @ 0 : 0; will stop at '!items!axBVkdYL9oN2CB2O' @ 25 : 1
-2024/02/24-11:39:19.314559 7ff6470e1700 Compacting 1@1 + 1@2 files
-2024/02/24-11:39:19.317203 7ff6470e1700 Generated table #97@1: 3 keys, 4140 bytes
-2024/02/24-11:39:19.317216 7ff6470e1700 Compacted 1@1 + 1@2 files => 4140 bytes
-2024/02/24-11:39:19.318962 7ff6470e1700 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/24-11:39:19.319015 7ff6470e1700 Delete type=2 #62
-2024/02/24-11:39:19.319061 7ff6470e1700 Delete type=2 #96
-2024/02/24-11:39:19.331005 7ff6470e1700 Manual compaction at level-1 from '!items!axBVkdYL9oN2CB2O' @ 25 : 1 .. '!items!axBVkdYL9oN2CB2O' @ 0 : 0; will stop at (end)
+2024/02/26-15:27:14.458480 7ff648ff9700 Recovering log #181
+2024/02/26-15:27:14.464164 7ff648ff9700 Delete type=0 #181
+2024/02/26-15:27:14.464210 7ff648ff9700 Delete type=3 #179
