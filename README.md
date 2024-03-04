@@ -22,7 +22,7 @@ Al entrar por primera vez con el módulo activo os aparecerá un mensaje de Bien
 ## Tiradas
 Para hacer una tirada solo tienes que pulsar en el icono de los dados de la capacidad correspondiente o su nombre (en el caso de objetivos en Magia solo en el Icono).
 
-![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/44cc683b-44ad-4038-8e1d-9a66379e2138)
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/af125b94-16d0-406d-b3bf-8525020d9836)
 
 Si con la tirada hay dados que no hayan tenido éxito, te aparecerá un botón en el mensaje del Chat preguntando si tienes una Especialidad. Si lo pulsas se tirarán los dados que no hayan tenido éxito y se sumaran los éxitos que se obtengan.
 
