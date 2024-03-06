@@ -1,7 +1,7 @@
 {
   "id": "el-rey-del-invierno-csb",
   "title": "El Rey del Invierno (CSB)",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -25,18 +25,16 @@
   "authors": [
     {
       "name": "Pedro Baringo",
-	  "url": "https://github.com/pedrobaringo",
-	  "discord": "pedrobari",
-	  "github": "pedrobaringo",
-      "flags": {}
+      "url": "https://github.com/pedrobaringo",
+      "discord": "pedrobari"
     }
   ],
   "esmodules": [
-		"./modules/reyinvierno.js",
-   "./modules/welcomemessage.js"
-	],
- "styles": [
-    "./assets/ReyInvierno.css"
+    "modules/reyinvierno.js",
+    "modules/welcomemessage.js"
+  ],
+  "styles": [
+    "assets/ReyInvierno.css"
   ],
   "packs": [
     {
@@ -44,32 +42,45 @@
       "label": "Templates Actores",
       "path": "packs/templates-actores",
       "type": "Actor",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder",
-      "flags": {}
+      }
     },
     {
       "name": "templates-objetos",
       "label": "Templates Objetos",
       "path": "packs/templates-objetos",
       "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "el-lay-del-caballero-verde",
+      "label": "El Lay del Caballero Verde",
+      "path": "packs/el-lay-del-caballero-verde",
+      "type": "Adventure",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "custom-system-builder",
+      "system": "custom-system-builder"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/el-rey-del-invierno-csb/assets/el-rey-del-invierno-banner.webp",
+      "thumbnail": "modules/el-rey-del-invierno-csb/assets/el-rey-del-invierno-banner.webp",
+      "loop": false,
       "flags": {}
     }
   ],
-  "media": [{
-		"type": "setup",
-		"url": "modules/el-rey-del-invierno-csb/assets/el-rey-del-invierno-banner.webp",
-		"thumbnail": "modules/el-rey-del-invierno-csb/assets/el-rey-del-invierno-banner.webp"
-	}],
   "url": "https://github.com/pedrobaringo/el-rey-del-invierno-csb",
   "manifest": "https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/download/1.0.15/el-rey-del-invierno-csb.zip"
+  "download": "https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/download/1.0.16/el-rey-del-invierno-csb.zip"
 }
