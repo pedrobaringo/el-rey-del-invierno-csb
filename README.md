@@ -5,6 +5,19 @@ Aquí puedes descargarte las reglas de inicio de El Rey del Invierno
 
 [![photo_2024-03-04_11-52-43](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/bafcf743-31bb-4c05-a972-036155787798)](https://shadowlandsgames.com/wp-content/uploads/2024/03/El-Rey-del-Invierno-Guia-de-Inicio.pdf)
 
+## Tabla de Contenido
+- [Instalación](#instalación)
+- [Configurar Mensaje de Bienvenida](#configurar-mensaje-de-bienvenida)
+- [Crear un PJ](#crear-un-pj)
+  - [Parte superior](#parte-superior)
+  - [Pestaña de Capacidades](#pestaña-de-capacidades)
+  - [Pestaña de Magia](#pestaña-de-magia)
+  - [Pestaña de Trasfondo y Notas](#pestaña-de-trasfondo-y-notas)
+- [Crear un PNJ](#crear-un-pnj)
+- [Crear Armas](#crear-armas)
+- [Crear Maestrías](#crear-maestrías)
+- [Tiradas](#tiradas)
+
 ## Instalación
 Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/el-rey-del-invierno-csb/releases/latest/download/module.json
 
