@@ -131,33 +131,33 @@ Justo debajo tenemos el Multiplicador de Vitalidad. Si seleccionamos un valor se
 
 Debajo de esto tenemos el valor de Masivo y el de Incapacitación. El numero que pongamos en incapacitación será el numero de casillas que tendrá. En general deberia ser uno concreto según la vitalidad (si tienes un multiplicador de vitalidad x1,5 la incapacitación deberian ser 6 casillas (4 es lo normal)), pero los he puesto independientes para dar mayor flexibilidad.
 
-#### Capacidades
+### Capacidades
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/6873cf30-c3ec-4344-860b-ff02fedcfbec)
 
 Las dos capacidades generales están marcadas en Gris. Se puede modificar el valor de cada una en el circulo blanco y se pueden hacer las tiradas pulsando en el nombre de la capacidad (con bonificador o penalizador pulsando la tecla Mayus). Tambien tenemos los espacios para añadir las Especialidades debajo de cada una.
 
 Las dos Capacidades de Combate funcionan igual, pero no tienen especialidades, en su lugar se les pueden añadir Maestrías. Para ello solo es necesario haber creado un objeto con la template de Maestrías y arrastrarlo a la ficha del Personaje (se explica más adelante como crear maestrías).
 
-#### Armas
+### Armas
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/f5030f3a-91b1-4099-a6c6-23276067e392)
 
 Para añadir armas a nuestro PNJ solo tenemos que arrastrar las armas que hayamos creado como objetos con la Template de Armas a la ficha de PNJ (se explica más adelante como crearlas).
 
 Si clickamos en el nombre podremos editar sus campos y si clickamos en el Daño base se producirá la tirada de daño del arma.
 
-#### Protección
+### Protección
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/9c7df932-7a34-47c1-aecd-e0a7ed978dd6)
 
 En la fila superior podemos añadir la armadura que llevemos, seleccionar de que tipo es, si es necesario cierto nivel de Vigor para llevarla, cuantos dados de daño reduce y si tiene algun valor de resistencia. En caso que tenga resistencia, al lado apareceran las casillas para marcar la incapacitación que puede soportar.
 
 En la fila inferior podemos añadir el escudo si tuviese. En el tipo de armadura solo se puede seleccionar Escudo y no tiene el campo de Resistencia.
 
-#### Selector de Iniciativa
+### Selector de Iniciativa
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/542fd2c5-fa41-4aad-b494-07bdc720ca0e)
 
 Justo debajo de la protección tenemos un selector que determinará el valor de Iniciativa que vamos a tener. Depende principalmente del tipo de arma que vayamos a usar o la acción que vayamos a hacer y se calcula automaticamente.
 
-#### Marcadores de Vitalidad e Incapacitación
+### Marcadores de Vitalidad e Incapacitación
 ![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/ac5f98e0-0abe-4e7a-a2c1-4b2cbabdff4e)
 
 En estos marcadores podemos ir marcando el daño que va recibiendo el PNJ. Según el Multiplicador de Vitalidad y el valor de Incapacitación el numero de casillas será distinto.
@@ -166,8 +166,32 @@ En el caso de la Vitalidad, marcar casillas nos limitará el numero de dados que
 
 En el caso de la Incapacitación hay dos casillas en gris porque con algunas mejoras (que apareceran en el libro básico) se puede aumentar la incapacitación que es capaz de aguantar un PJ.
 
-#### Descripción
+### Descripción
 En este apartado podemos describir el PNJ o anotar reglas especiales que pueda tener.
+
+## Crear Armas
+Crea un nuevo Objeto y selecciona la Template "Arma_Template" y pulsa el botón de refrescar al lado del selector.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/13244239-deef-4c22-bee4-ed4e0b4d2476)
+
+En Categoría puedes añadir a cual pertenece (filo, contundente, proyectiles, etc). En manos que ocupa puedes poner cuantas manos se necesitan para usar esa arma. En Daño se debe poner el numero de dados que hace de daño (valor numérico). En alcance se puede añadir a que distancia puede llegar ese arma y en notas se puede añadir información como si produce Trauma u otra capacidad especial que pueda tener.
+
+Para añadirla a una ficha de PJ o PNJ debes arrastrar el arma desde el menú de la derecha a la ficha del PJ o PNJ correspondiente.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/37e058ae-d86f-4aa0-bb80-1622471b821a)
+
+## Crear Maestrías
+Crea un nuevo Objeto y selecciona la Template "Maestria_Template" y pulsa el botón de refrescar al lado del selector.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/a305d8a7-59ac-4834-bd49-64d1f9bae12c)
+
+En Tipo de Maestría puedes seleccionar si es para Lucha o para Armas de Proyectiles, de esta forma aparecerá debajo de la Capacidad correspondiente.
+
+En Descripción puedes añadir la información del efecto especial que tiene esa maestría.
+
+Para añadirla a una ficha de PJ o PNJ debes arrastrar la Maestría desde el menú de la derecha a la ficha del PJ o PNJ correspondiente.
+
+![image](https://github.com/pedrobaringo/el-rey-del-invierno-csb/assets/148097688/f72ec759-21d8-4fef-bf07-fe749d54e16a)
 
 ## Tiradas
 Para hacer una tirada solo tienes que pulsar en el icono de los dados de la capacidad correspondiente o su nombre (en el caso de objetivos en Magia solo en el Icono).
