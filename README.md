@@ -177,8 +177,6 @@ En estos marcadores podemos ir marcando el daño que va recibiendo el PNJ. Segú
 
 En el caso de la Vitalidad, marcar casillas nos limitará el numero de dados que podemos tirar para las capacidades y magia (esta ya implementado). El máximo de dados que podremos tirar será el valor de la casilla mas alta sin marcar.
 
-En el caso de la Incapacitación hay dos casillas en gris porque con algunas mejoras (que apareceran en el libro básico) se puede aumentar la incapacitación que es capaz de aguantar un PJ.
-
 ### Descripción
 En este apartado podemos describir el PNJ o anotar reglas especiales que pueda tener.
 
