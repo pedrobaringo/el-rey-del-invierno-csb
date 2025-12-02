@@ -61,6 +61,8 @@ Hooks.once("ready", function() {
 							}
 							let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
 						}, 500);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 						game.user.setFlag("el-rey-del-invierno-csb", "welcomeMessage", true);
 						game.user.setFlag("el-rey-del-invierno-csb", "lastVersion", game.modules.get("el-rey-del-invierno-csb").version);
 					});
@@ -108,6 +110,8 @@ Hooks.once("ready", function() {
 							}
 							let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
 						}, 500);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 						game.user.setFlag("el-rey-del-invierno-csb", "lastVersion", game.modules.get("el-rey-del-invierno-csb").version);
 					});
 				}
