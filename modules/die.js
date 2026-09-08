@@ -1,4 +1,4 @@
-export class RIWhite extends Die {
+export class RIWhite extends foundry.dice.terms.Die {
     constructor(termData) {
         termData.faces=6;
         super(termData);
@@ -18,7 +18,7 @@ export class RIWhite extends Die {
         }[result.result];
     }
 };
-export class RId6 extends Die {
+export class RId6 extends foundry.dice.terms.Die {
     constructor(termData) {
         super(termData);
     }
